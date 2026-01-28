@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DJ Shiv</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0b;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, #111, #000);
+    }
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+    p {
+      max-width: 700px;
+      margin: 1rem auto;
+      color: #ccc;
+    }
+    section {
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 12px 28px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    .btn:hover {
+      background: #ddd;
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      background: #050505;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>DJ SHIV</h1>
+      <p>Open-format • High-energy • Crowd-first</p>
+      <a href="#contact" class="btn">Book Me</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      DJ Shiv is an open-format DJ known for high-energy sets and smooth transitions.
+      Having played college events, private parties, and nightlife venues, he brings
+      a crowd-focused sound that keeps the dance floor moving.
+    </p>
+  </section>
+
+  <section>
+    <h2>Where I’ve Played</h2>
+    <p>
+      • [Venue Name]<br/>
+      • [Venue Name]<br/>
+      • College Events & Private Parties
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Bookings & inquiries</p>
+    <p><strong>Email:</strong> yourname@email.com</p>
+
+    <div class="social">
+      <a href="#">Instagram</a>
+      <a href="#">SoundCloud</a>
+      <a href="#">TikTok</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 DJ Shiv
+  </footer>
+
+</body>
+</html>
